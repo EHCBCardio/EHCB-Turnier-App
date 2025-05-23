@@ -6,6 +6,7 @@ self.addEventListener('install', event => {
         '/index.html',
         '/manifest.json',
         '/service-worker.js',
+        '/ehcb-logo.png',
         '/icons/icon-192.png',
         '/icons/icon-512.png'
       ]);
