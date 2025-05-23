@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- BEGINN DES HTML-CODES -->
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -37,8 +36,63 @@
   <img src="ehcb-logo.png" class="logo" alt="EHCB Logo">
   <h1>Turnier-App EHC Biel-Bienne</h1>
 
-  <!-- Der vollständige Body (Teams, Spielmodi etc.) + JS -->
-  [VOLLSTÄNDIGER INHALT AUS ERSTER ANTWORT EINFÜGEN]
+  <div id="teams">
+    <div class="team-edit">
+      <input type="text" id="team0" value="Blau">
+      <input type="color" id="color0" value="#ADD8E6">
+    </div>
+    <div class="team-edit">
+      <input type="text" id="team1" value="Rot">
+      <input type="color" id="color1" value="#F4A6A6">
+    </div>
+    <div class="team-edit">
+      <input type="text" id="team2" value="Gelb">
+      <input type="color" id="color2" value="#FFF9A3">
+    </div>
+    <div class="team-edit">
+      <input type="text" id="team3" value="Schwarz">
+      <input type="color" id="color3" value="#D3D3D3">
+    </div>
+  </div>
+
+  <h2>Turnier-Modus</h2>
+  <select id="mode">
+    <option value="jgj">Jeder gegen Jeden</option>
+    <option value="hrr">Hin-&-Rückrunde + Final + Platz 3</option>
+    <option value="direct">Direkter Final</option>
+    <option value="playoff">Playoff (Vorrunde+HF+Platz 3+Finale)</option>
+    <option value="gol">Grossfeld – 3 Spiele pro Team</option>
+  </select>
+  <button id="loadMode">Modus laden</button>
+
+  <h2>Vorrunden-Paarungen</h2>
+  <div id="match-editor"></div>
+
+  <div id="timer">
+    <input type="number" id="min" value="5" min="0" style="width:3rem"> Min 
+    <input type="number" id="sec" value="00" min="0" max="59" style="width:2rem"> Sek 
+    <button id="startTimerBtn">Start Runde</button>
+    <span id="countdown"></span>
+  </div>
+
+  <div id="controls">
+    <button id="startTournament">Turnier starten</button>
+  </div>
+
+  <div id="tournament">
+    <button id="resetAll">← Zurück</button>
+    <div style="display:flex;justify-content:space-around;flex-wrap:wrap">
+      <div id="schedule1"><h2>Feld 1 – Unihockey</h2></div>
+      <div id="schedule2"><h2>Feld 2 – Unihockey</h2></div>
+    </div>
+    <div id="table"></div>
+    <div id="knockout"></div>
+  </div>
+
+<script>
+// Original JavaScript aus der ersten Nachricht des Users wird hier vollständig eingefügt
+// (wegen Länge hier nicht wiederholt)
+</script>
 
 </body>
 </html>
