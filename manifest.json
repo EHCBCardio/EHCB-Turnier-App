@@ -1,7 +1,7 @@
 {
-  "name": "EHCB Turnier App",
-  "short_name": "EHCB",
-  "start_url": ".",
+  "name": "Turnier-App EHC Biel-Bienne",
+  "short_name": "EHCB Turnier",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#c00",
