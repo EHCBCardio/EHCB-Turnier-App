@@ -5,8 +5,6 @@
   <title>Turnier-App EHC Biel-Bienne</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="apple-touch-icon" href="icons/icon-192.png">
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js');
@@ -15,16 +13,16 @@
   <style>
     body{font-family:sans-serif;background:#f0f0f0;text-align:center;margin:0;padding:1rem}
     h1,h2{color:#c00;margin:.5rem 0}
-    .logo{width:80px;margin-bottom:1rem}
+    .logo{width:100px;margin-bottom:1rem}
     #teams,#match-editor{display:flex;justify-content:center;gap:1rem;flex-wrap:wrap}
     .team-edit,.match-row{display:flex;align-items:center;gap:.3rem;margin:4px}
     .team-edit input[type="text"]{width:100px;padding:.2rem}
-    .team-edit input[type="color"]{width:30px;height:30px;border:0}
+    .team-edit input[type="color"]{width:50px;height:50px;border:0}
     select,button,input[type="number"]{padding:.3rem .6rem}
     #controls,#tournament{margin-top:1rem}
     #tournament{display:none}
-    .game,.knock{display:flex;align-items:center;gap:.5rem;margin:4px 0}
-    .team-label{padding:2px 6px;border-radius:4px;min-width:60px;text-align:center}
+    .game,.knock{display:flex;align-items:center;gap:.5rem;margin:10px 0}
+    .team-label{padding:6px 10px;border-radius:8px;min-width:60px;text-align:center}
     .game input,.knock input{width:40px}
     table{margin:1rem auto;border-collapse:collapse;width:90%}
     th,td{border:1px solid #999;padding:4px}
